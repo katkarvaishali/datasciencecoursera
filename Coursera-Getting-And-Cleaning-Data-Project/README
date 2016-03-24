@@ -1,0 +1,29 @@
+Coursera Assignment - Getting and Cleaning Data Course Project
+-----------------------------------------------------------------------------------------------------------------
+This course project is for Getting and Cleaning Data Coursera Project.  
+
+Overview :
+This project is to demonstrate to get and clean data of a tidy data set that can be used for analysis
+
+I]  The R Script run_analysis.R does the following:
+1.  Get the data
+2.  Unzip the data file
+3.  Unzipped files are in the folder UCI HAR Dataset. Get the list of the files from that folder.
+4.  Load required packages as below 
+- dplyr
+- data.table
+- tidyr
+5.  Load below mentioned files keeping only those columns to reflect a mean or standard deviation for each measurement
+- UCI HAR Dataset/test/subject_test.txt
+- UCI HAR Dataset/test/X_test.txt
+- UCI HAR Dataset/test/y_test.txt
+- UCI HAR Dataset/train/subject_train.txt
+- UCI HAR Dataset/train/X_train.txt
+- UCI HAR Dataset/train/y_train.txt
+6.  Loads the activity and subject data for each dataset, and merges those columns with the dataset
+7.  Merge the two datasets
+8.  Convert the  activity  and  subject  columns into factors
+9.  Create a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+
+II]  The end result is shown in the file  tidy.txt .
+-----------------------------------------------------------------------------------------------------------------
